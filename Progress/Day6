@@ -1,0 +1,29 @@
+# Day 6 – Assign Roles to Table  
+
+## 1. Accessing Operations Related Table  
+- Opened **ServiceNow instance**.  
+- Navigated to **All → Tables**.  
+- Selected **Operations Related** table.  
+
+## 2. Configuring Read Access  
+- Clicked on **Application Access**.  
+- Selected **u_operations_related – Read Operation**.  
+- Clicked on profile (top right) and selected **Elevate Role**.  
+- Chose **Security Admin** and clicked **Update**.  
+- Under **Requires Role**, double-clicked **Insert a New Row**.  
+- Added roles:  
+  - **Platform_role**  
+  - **Certificate_role**  
+- Clicked **Update** to save changes.  
+
+## 3. Configuring Write Access  
+- Selected **u_operations_related – Write Operation**.  
+- Under **Requires Role**, double-clicked **Insert a New Row**.  
+- Added roles:  
+  - **Platform_role**  
+  - **Certificate_role**  
+- Clicked **Update** to save changes.  
+
+## 4. Verification  
+- Confirmed **Read** and **Write** access are restricted to the assigned roles.  
+- Verified roles are applied correctly for the table operations.
