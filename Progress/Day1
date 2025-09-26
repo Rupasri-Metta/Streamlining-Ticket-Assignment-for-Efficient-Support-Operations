@@ -1,0 +1,22 @@
+# Day 1 – User Creation  
+
+## 1. Accessing User Management  
+- Opened **ServiceNow instance**.  
+- Navigated to **All → Users (under System Security)**.  
+
+## 2. Creating First User  
+- Clicked **New** to create a user.  
+- Filled in required details:  
+  - **Name**  
+  - **User ID**  
+  - **Email**  
+  - **Password**  
+- Clicked **Submit** to save the record.  
+
+## 3. Creating Second User  
+- Repeated the process to add another user.  
+- Entered details and clicked **Submit**.  
+
+## 4. Verification  
+- Confirmed both users were created.  
+- Verified details under **User Records** in the system.  
