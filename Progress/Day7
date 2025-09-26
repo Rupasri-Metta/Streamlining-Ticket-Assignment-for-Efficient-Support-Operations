@@ -1,0 +1,24 @@
+# Day 7 – Create ACLs  
+
+## 1. Accessing ACL Management  
+- Opened **ServiceNow instance**.  
+- Navigated to **All → Access Control (ACL) under System Security**.  
+
+## 2. Creating First ACL  
+- Clicked **New** to create an ACL.  
+- Filled in required details (e.g., Table, Operation, Name).  
+- Scrolled down to **Requires Role**, double-clicked **Insert a New Row**.  
+- Added **Admin Role**.  
+- Clicked **Submit** to save the ACL.  
+
+## 3. Creating Additional ACLs  
+- Repeated the process to create **4 ACLs** for the following fields:  
+  - Field 1  
+  - Field 2  
+  - Field 3  
+  - Field 4  
+- Verified all ACLs are created with the correct roles and settings.  
+
+## 4. Verification  
+- Confirmed ACLs are active and restricting access as intended.  
+- Ensured **Admin Role** is required for all newly created ACLs.
