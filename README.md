@@ -1,50 +1,52 @@
-# Automated-Network-Request-Management-in-ServiceNow
+# Streamlining Ticket Assignment for Efficient Support Operations
 
 ## 📖 Project Description
-This project demonstrates the end-to-end implementation of a **Service Catalog** and **automation workflows** in ServiceNow.  
-The goal was to design, configure, and test key features such as catalog items, variables, tables, approvals, and flows to deliver a smooth request lifecycle — from **submission to closure**.
+This project focuses on implementing an **automated ticket routing system** at ABC Corporation to improve operational efficiency in the support department.  
+The solution ensures support tickets are assigned to the **appropriate teams automatically**, reducing resolution delays, enhancing customer satisfaction, and optimizing resource utilization.
 
 ---
 
 ## 🎯 Objectives
-- Design a Service Catalog with structured categories and reusable variable sets.  
-- Create custom tables aligned with catalog items for request data management.  
-- Implement approval workflows using related lists and Flow Designer.  
-- Configure flows and actions for request handling and notifications.  
-- Perform final testing and validation through the Service Portal.
+- Automate ticket assignment to reduce manual effort and errors.  
+- Assign tickets accurately based on issue type to the relevant support group.  
+- Configure roles, users, and ACLs to ensure secure access.  
+- Use Flow Designer to automate ticket routing and notifications.  
+- Optimize the support process for faster issue resolution.
 
 ---
 
 ## ⚙️ Implementation Approach
-The project was executed in **six phases**, each focusing on a core ServiceNow capability:
+The project was executed in **eight phases**, each focusing on a core ServiceNow capability:
 
-1. **Service Catalog Creation** – Defined catalog, categories, variables, variable sets, and UI policies.  
-2. **Table Creation** – Built custom tables, fields, and form layouts aligned with catalog items.  
-3. **Request Approvals** – Configured related lists to capture approval workflows.  
-4. **Flow Designer Overview** – Explored triggers, actions, subflows, and data pills.  
-5. **Flow Implementation** – Designed end-to-end flows for request handling with approvals, notifications, and status updates.  
-6. **Final Testing** – Performed Service Portal, email, and end-to-end workflow validation.
+1. **User Creation** – Created users required for support operations.  
+2. **Group Creation** – Defined support groups for ticket assignment.  
+3. **Role Creation** – Configured roles and assigned to users/groups.  
+4. **Table Creation & Choice Fields** – Built custom tables and configured issue types.  
+5. **Assign Roles & Users to Groups** – Linked users and roles to support groups.  
+6. **Assign Roles to Table Operations** – Restricted table read/write access using roles.  
+7. **Create ACLs** – Configured access control for security and data protection.  
+8. **Automate Ticket Assignment with Flows** – Designed flows in Flow Designer to assign tickets automatically based on issue type.
 
 ---
 
 ## 📊 Outcomes
-- Successfully implemented a Service Catalog with dynamic variables and reusable sets.  
-- Created custom tables with proper field properties and relationships.  
-- Built and tested approval workflows linked to request records.  
-- Designed flows in Flow Designer for automation of tasks and notifications.  
-- Validated the end-to-end lifecycle:  
-  **Request Submission → Approval Workflow → Notifications → Fulfillment → Closure**
+- Automated ticket assignment based on issue type.  
+- Reduced delays in issue resolution.  
+- Ensured correct access and role-based permissions for users.  
+- Improved customer satisfaction through faster and accurate support.  
+- Optimized resource utilization within the support department.
 
 ---
 
 ## ✅ Key Learnings
-- Designing scalable catalogs with reusable configurations.  
-- Using Flow Designer for modular and reusable automation.  
-- Importance of UI policies and variable sets in improving end-user experience.  
-- Best practices in testing workflows to ensure reliability.
+- Designing an automated workflow for ticket management.  
+- Using Flow Designer for creating modular, conditional automation.  
+- Assigning roles and groups for secure and efficient operations.  
+- Importance of ACLs and role-based security in ServiceNow.  
+- Best practices in testing and validating end-to-end processes.
 
 ---
 
 ## 👩‍💻 Author
 **Rupasri Metta**  
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/rupasri-metta)  
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/rupasri-metta)
