@@ -49,4 +49,4 @@ The project was executed in **eight phases**, each focusing on a core ServiceNow
 
 ## 👩‍💻 Author
 **Rupasri Metta**  
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/rupasri-metta)
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/rupasri-metta-31059a273)
