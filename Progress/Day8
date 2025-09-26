@@ -1,0 +1,73 @@
+# Day 8 – Create Flows to Assign Operations Tickets  
+
+## 1. Flow for Assigning Tickets to Certificates Group  
+
+### Accessing Flow Designer  
+- Opened **ServiceNow instance**.  
+- Navigated to **All → Flow Designer (under Process Automation)**.  
+- Clicked **New → Flow**.  
+
+### Flow Properties  
+- **Flow Name:** Regarding Certificate  
+- **Application:** Global  
+- **Run User:** System User  
+- Clicked **Submit**  
+
+### Adding Trigger  
+- Clicked **Add a Trigger** → selected **Create or Update a Record**  
+- **Table:** Operations Related  
+- **Condition:**  
+  - Field: Issue  
+  - Operator: is  
+  - Value: Regrading Certificates  
+- Clicked **Done**  
+
+### Adding Actions  
+- Clicked **Add an Action** → selected **Update Record**  
+- **Record Field:** dragged fields from Data Navigation  
+- **Field to Update:** Assigned to Group  
+- **Value:** Certificates  
+- Clicked **Done**  
+
+### Save and Activate  
+- Clicked **Save**  
+- Clicked **Activate**  
+
+---
+
+## 2. Flow for Assigning Tickets to Platform Group  
+
+### Accessing Flow Designer  
+- Opened **ServiceNow instance**  
+- Navigated to **All → Flow Designer (under Process Automation)**  
+- Clicked **New → Flow**  
+
+### Flow Properties  
+- **Flow Name:** Regarding Platform  
+- **Application:** Global  
+- **Run User:** System User  
+- Clicked **Submit**  
+
+### Adding Trigger  
+- Clicked **Add a Trigger** → selected **Create or Update a Record**  
+- **Table:** Operations Related  
+- **Conditions:**  
+  - Field: Issue, Operator: is, Value: Unable to login to platform  
+  - Field: Issue, Operator: is, Value: 404 Error  
+  - Field: Issue, Operator: is, Value: Regrading User expired  
+- Clicked **Done**  
+
+### Adding Actions  
+- Clicked **Add an Action** → selected **Update Record**  
+- **Record Field:** dragged fields from Data Navigation  
+- **Field to Update:** Assigned to Group  
+- **Value:** Platform  
+- Clicked **Done**  
+
+### Save and Activate  
+- Clicked **Save**  
+- Clicked **Activate**  
+
+## 3. Verification  
+- Confirmed flows are active.  
+- Verified tickets are automatically assigned to **Certificates** or **Platform** groups based on the issue.
