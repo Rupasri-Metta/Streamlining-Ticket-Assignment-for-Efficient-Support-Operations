@@ -1,0 +1,26 @@
+# Day 4 – Table Creation & Choice Configuration  
+
+## 1. Accessing Table Management  
+- Opened **ServiceNow instance**.  
+- Navigated to **All → Tables (under System Definition)**.  
+
+## 2. Creating New Table  
+- Clicked **New** to create a table.  
+- Filled in required details:  
+  - **Label:** Operations related  
+  - Checked **Create module** & **Create mobile module**  
+  - **New Menu Name:** Operations related  
+  - Added table columns as required  
+- Clicked **Submit** to save the table.  
+
+## 3. Configuring Choice List for Issue Field  
+- Used **Form Design** to create choices for the **Issue** field:  
+  - unable to login to platform  
+  - 404 error  
+  - regarding certificates  
+  - regarding user expired  
+- Saved the choice list and verified in the form.  
+
+## 4. Verification  
+- Confirmed the table **Operations related** was created.  
+- Verified all columns and choice values are correctly set.
