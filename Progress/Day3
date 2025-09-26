@@ -1,0 +1,20 @@
+# Day 3 – Role Creation  
+
+## 1. Accessing Role Management  
+- Opened **ServiceNow instance**.  
+- Navigated to **All → Roles (under System Security)**.  
+
+## 2. Creating First Role  
+- Clicked **New** to create a role.  
+- Filled in required details:  
+  - **Role Name**  
+  - **Description**  
+- Clicked **Submit** to save the record.  
+
+## 3. Creating Second Role  
+- Repeated the process to add another role.  
+- Entered details and clicked **Submit**.  
+
+## 4. Verification  
+- Confirmed both roles were created successfully.  
+- Verified entries under **Role Records** in the system.  
