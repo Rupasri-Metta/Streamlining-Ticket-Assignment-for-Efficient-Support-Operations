@@ -1,0 +1,21 @@
+# Day 2 – Group Creation  
+
+## 1. Accessing Group Management  
+- Opened **ServiceNow instance**.  
+- Navigated to **All → Groups (under System Security)**.  
+
+## 2. Creating First Group  
+- Clicked **New** to create a group.  
+- Filled in required details:  
+  - **Group Name**  
+  - **Description**  
+  - **Email**  
+- Clicked **Submit** to save the record.  
+
+## 3. Creating Second Group  
+- Repeated the process to add another group.  
+- Entered details and clicked **Submit**.  
+
+## 4. Verification  
+- Confirmed both groups were created successfully.  
+- Verified entries under **Group Records** in the system.  
